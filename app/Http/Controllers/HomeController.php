@@ -32,7 +32,6 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        return 1;
         $user = $request->user();
         if($user){
             if (view()->exists($request->path())) {
