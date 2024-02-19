@@ -8,6 +8,7 @@ use App\Models\Distributor;
 use App\Models\Log;
 use App\Models\Product;
 use App\Models\SaleItem;
+use App\Models\Town;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
@@ -44,7 +45,8 @@ class HomeController extends Controller
                 return view($request->path(),compact('user','distributors','customers','buys','logs'));
             }
         }else{
-            return view('welcome');
+            $towns = Town::where('status', 1)->orderBy('name','ASC')->get();
+            return view('welcome', compact('towns'));
         }
 
     }
@@ -94,7 +96,8 @@ class HomeController extends Controller
                     break;
             }
         }else{
-            return view('welcome');
+            $towns = Town::where('status', 1)->orderBy('name','ASC')->get();
+            return view('welcome', compact('towns'));
         }
 
     }
