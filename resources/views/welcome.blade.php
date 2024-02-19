@@ -37,24 +37,24 @@
                                     </div>
                                 </div>
                                 <hr>
-                                <div class="col-md-3 mt-4">
+                                <div class="col-md-4 mt-4">
                                     <img src="{{ asset('/assets/images/fondo5.jpg') }}" alt="" style="width: 100%;">
                                 </div>
-                                <div class="col-md-9 mt-4">
+                                <div class="col-md-8 mt-4">
                                     <h1>Sin Comisiones. Todo gratis</h1>
                                     <p class="text-landing">
-                                            <div class="mb-1"><i class="bx bx-images me-2"></i> FOTOS PROFESIONALES</div>
-                                            <div class="mb-1"><i class="bx bx-video me-2"></i> VIDEOS (OPCIÓN DE MATTERPORT 3D REAL SI REQUIERE LA FINCA)</div>
-                                            <div class="mb-1"><i class="bx bx-buildings me-2"></i>  ELABORACIÓN DE PLANOS (SI REQUIERE)</div>
-                                            <div class="mb-1"><i class="bx bx-certification me-2"></i>  CERTIFICADO DE EFICIENCIA ENEREGÉTICA DE LA VIVIENDA (CEE)</div>
-                                            <div class="mb-1"><i class="bx bx-cloud-upload me-2"></i>  SUBIR A PORTALES</div>
-                                            <div class="mb-1"><i class="bx bx-store-alt me-2"></i>  ACCIONES DE MÁRKETING</div>
-                                            <div class="mb-1"><i class="bx bx-user me-2"></i>  GESTIÓN DE VISITAS</div>
-                                            <div class="mb-1"><i class="bx bx-file me-2"></i>  TRAMITAR DOCUMENTOS NECESARIOS PARA LA VENTA</div>
-                                            <div class="mb-1"><i class="bx bx-briefcase me-2"></i>  NEGOCIACIONES CON COMPRADORES</div>
-                                            <div class="mb-1"><i class="bx bx-edit me-2"></i>  ELABORACIÓN DE CONTRATOS</div>
-                                            <div class="mb-1"><i class="bx bxs-user-detail me-2"></i>  ACOMPAÑAMIENTO EN NOTARÍA</div>
-                                            <div class="mb-1"><i class="bx bx-notepad me-2"></i>  GESTIONES POST VENTA</div>
+                                            <div class="mb-2"><i class="bx bx-images me-2"></i> FOTOS PROFESIONALES</div>
+                                            <div class="mb-2"><i class="bx bx-video me-2"></i> VIDEOS (OPCIÓN DE MATTERPORT 3D REAL SI REQUIERE LA FINCA)</div>
+                                            <div class="mb-2"><i class="bx bx-buildings me-2"></i>  ELABORACIÓN DE PLANOS (SI REQUIERE)</div>
+                                            <div class="mb-2"><i class="bx bx-certification me-2"></i>  CERTIFICADO DE EFICIENCIA ENEREGÉTICA DE LA VIVIENDA (CEE)</div>
+                                            <div class="mb-2"><i class="bx bx-cloud-upload me-2"></i>  SUBIR A PORTALES</div>
+                                            <div class="mb-2"><i class="bx bx-store-alt me-2"></i>  ACCIONES DE MÁRKETING</div>
+                                            <div class="mb-2"><i class="bx bx-user me-2"></i>  GESTIÓN DE VISITAS</div>
+                                            <div class="mb-2"><i class="bx bx-file me-2"></i>  TRAMITAR DOCUMENTOS NECESARIOS PARA LA VENTA</div>
+                                            <div class="mb-2"><i class="bx bx-briefcase me-2"></i>  NEGOCIACIONES CON COMPRADORES</div>
+                                            <div class="mb-2"><i class="bx bx-edit me-2"></i>  ELABORACIÓN DE CONTRATOS</div>
+                                            <div class="mb-2"><i class="bx bxs-user-detail me-2"></i>  ACOMPAÑAMIENTO EN NOTARÍA</div>
+                                            <div class="mb-2"><i class="bx bx-notepad me-2"></i>  GESTIONES POST VENTA</div>
                                     </p>
                                 </div>
                                 <hr class="mt-4">
