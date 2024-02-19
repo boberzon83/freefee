@@ -53,15 +53,6 @@
                                 <div class="col-md-6 mt-5" style="height: 357px;">
                                     <iframe src="https://my.matterport.com/show/?m=RsKKA9cRJnj" frameborder="0" width="100%" height="350"></iframe>
                                 </div>
-                                
-                                
-                                <div class="col-md-6 mt-5">
-                                    <img src="{{ asset('/assets/images/fondo5.webp') }}" alt="" style="width: 100%;">
-                                </div>
-                                <div class="col-md-6 mt-5">
-                                    <h1>Fotos</h1>
-                                    <p class="text-landing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in congue ex. Sed ultrices metus sit amet augue feugiat, vel dictum ligula pulvinar. Curabitur luctus quam eget orci laoreet bibendum. Aliquam sit amet ipsum eu leo euismod tristique. Sed fermentum rhoncus luctus. Maecenas nec arcu eros. Nullam quis diam ac lacus elementum pulvinar. Ut dictum turpis luctus orci maximus, vel consequat ipsum vestibulum.</p>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -127,19 +118,19 @@
                                                                 class="social-list-item bg-primary text-white border-primary">
                                                                 <i class="mdi mdi-facebook"></i>
                                                             </a>
-                                                        </div>
+                                                        </li>
                                                         <li class="list-inline-item">
                                                             <a href="#"
                                                                 class="social-list-item bg-info text-white border-info">
                                                                 <i class="mdi mdi-twitter"></i>
                                                             </a>
-                                                        </div>
+                                                        </li>
                                                         <li class="list-inline-item">
                                                             <a href="#"
                                                                 class="social-list-item bg-danger text-white border-danger">
                                                                 <i class="mdi mdi-google"></i>
                                                             </a>
-                                                        </div>
+                                                        </li>
                                                     </ul>
                                                 </div>
         
