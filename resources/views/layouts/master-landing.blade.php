@@ -58,12 +58,6 @@
             .text-landing {
                 text-transform: uppercase;
             }
-            ul{
-                list-style:none;
-            }
-            li {
-                margin: 10px 0px 10px 0px;
-            }
             body[data-sidebar=dark] #sidebar-menu ul li a {
                 color: #999999;
             }
