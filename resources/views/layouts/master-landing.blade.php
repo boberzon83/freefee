@@ -7,14 +7,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-        <meta content="Themesbrand" name="author" />
+        <meta content="VENTA SIN COSTES" name="description" />
+        <meta content="Roberto Naranjo" name="author" />
         <!-- App favicon -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 
         <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.png')}}">
+        <link rel="icon" type="image/jpg" href="{{ URL::asset('assets/images/favicon.png')}}"/>
         @include('layouts.head-css')
         <style>
             .text-primary {
