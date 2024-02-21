@@ -6,9 +6,60 @@
 
 @section('css')
     <!-- owl.carousel css -->
-    <link href="{{ URL::asset('/assets/libs/select2/select2.min.css') }}" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="{{ URL::asset('/assets/libs/owl.carousel/owl.carousel.min.css') }}">
     <link href="{{ URL::asset('/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.css') }}" rel="stylesheet" type="text/css">
+    <style>
+        #img-secc-1-app {
+            display: none;
+        }
+        #img-secc-2-app {
+            display: none;
+        }
+        #content-secc-2-app {
+            display: none;
+        }
+        #img-secc-3-app {
+            display: none;
+        }
+        #content-secc-3-app {
+            display: none;
+        }
+        @media (max-width: 768px) {
+        #img-secc-1 {
+            display: none;
+        }
+        #img-secc-1-app {
+            display: block;
+        }
+        #img-secc-2 {
+            display: none;
+        }
+        #img-secc-2-app {
+            display: block;
+        }
+        #content-secc-2 {
+            display: none;
+        }
+        #content-secc-2-app {
+            display: block;
+        }
+        #img-secc-3 {
+            display: none;
+        }
+        #img-secc-3-app {
+            display: block;
+            padding: 0px 30px 0px 30px;
+        }
+        #content-secc-3 {
+            display: none;
+        }
+        #content-secc-3-app {
+            display: block;
+            padding: 0px 30px 0px 30px;
+        }
+
+        }
+    </style>
 @endsection
 
 @section('body')
@@ -24,16 +75,24 @@
                     <div class="col-xl-9">
                         <div class="auth-full-page-content">
                             <div class="row">
-                                <div class="col-xl-12 text-center">
+                                <div id="img-secc-1" class="col-xl-12 text-center">
                                     <div>
                                         <img src="{{ URL::asset('/assets/images/fondoFreefee4.png') }}" alt="" width="100%">
                                     </div>
                                 </div>
+                                <div id="img-secc-1-app" class="col-xl-12 text-center mt-3">
+                                    <div class="mb-4">
+                                        <img src="{{ URL::asset('/assets/images/freefee2.png') }}" alt="" height="120">
+                                    </div>
+                                    <div>
+                                        <img src="{{ URL::asset('/assets/images/img-secc-1-app.png') }}" alt="" width="100%">
+                                    </div>
+                                </div>
                                 <hr>
-                                <div class="col-md-4 mt-4">
+                                <div id="img-secc-2" class="col-md-4 mt-4">
                                     <img src="{{ asset('/assets/images/img-secc-2.png') }}" alt="" style="width: 100%;">
                                 </div>
-                                <div class="col-md-8 mt-4">
+                                <div id="content-secc-2" class="col-md-8 mt-4 p-4">
                                     <h1>Nos encargamos de todo</h1>
                                     <p class="text-landing">
                                             <div class="mb-2"><i class="bx bx-images me-2"></i> FOTOS PROFESIONALES</div>
@@ -50,14 +109,45 @@
                                             <div class="mb-2"><i class="bx bx-notepad me-2"></i>  GESTIONES POST VENTA</div>
                                     </p>
                                 </div>
+                                <div id="content-secc-2-app" class="col-md-8 p-4 text-center">
+                                    <h1>Nos encargamos <br />de todo</h1>
+                                    <p class="text-landing text-center">
+                                            <div class="mb-3  text-center"><i class="bx bx-images bx-md"></i><br />FOTOS PROFESIONALES</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-video bx-md"></i><br />VIDEOS (OPCIÓN DE MATTERPORT 3D REAL SI REQUIERE LA FINCA)</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-buildings bx-md"></i><br />ELABORACIÓN DE PLANOS (SI REQUIERE)</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-certification bx-md"></i><br />CERTIFICADO DE EFICIENCIA ENEREGÉTICA DE LA VIVIENDA (CEE)</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-cloud-upload bx-md"></i><br />SUBIR A PORTALES</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-store-alt bx-md"></i><br />ACCIONES DE MÁRKETING</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-user bx-md"></i><br />GESTIÓN DE VISITAS</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-file bx-md"></i><br />TRAMITAR DOCUMENTOS NECESARIOS PARA LA VENTA</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-briefcase bx-md"></i><br />NEGOCIACIONES CON COMPRADORES</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-edit bx-md"></i><br />ELABORACIÓN DE CONTRATOS</div>
+                                            <div class="mb-3  text-center"><i class="bx bxs-user-detail bx-md"></i><br />ACOMPAÑAMIENTO EN NOTARÍA</div>
+                                            <div class="mb-3  text-center"><i class="bx bx-notepad bx-md"></i><br />GESTIONES POST VENTA</div>
+                                    </p>
+                                </div>
+                               
+                                <div id="img-secc-2-app" class="col-md-4">
+                                    <img src="{{ asset('/assets/images/img-secc-2-app.png') }}" alt="" style="width: 100%;">
+                                </div>
                                 <hr>
-                                <div class="col-md-6 mt-4 p-5">
+                                <div id="content-secc-3" class="col-md-6 mt-4 p-5">
                                     <h1>Videos 3D</h1>
                                     <p class="text-landing">
                                         Gracias a las visitas virtuales, ofrecemos a nuestros clientes la oportunidad de explorar las propiedades de manera inmersiva y realista desde la comodidad de sus hogares. Utilizando tecnología de realidad y recorrido virtuales 3D de Matterport, nuestros clientes pueden realizar visitas virtuales a las propiedades que les interesan, explorando cada rincón y detalle como si estuvieran allí en persona, lo que facilita la toma de decisiones informadas y reduce la necesidad de visitas físicas.
                                     </p>
                                 </div>
-                                <div class="col-md-6 mt-4 p-5" style="height: 357px;">
+                                <div id="img-secc-3" class="col-md-6 mt-4 p-5" style="height: 357px;">
+                                    <iframe src="https://my.matterport.com/show/?m=RsKKA9cRJnj" frameborder="0" width="100%" height="350"></iframe>
+                                </div>
+
+                                <div id="content-secc-3-app" class="col-md-6 text-center">
+                                    <h1>Videos 3D</h1>
+                                    <p class="text-landing">
+                                        Gracias a las visitas virtuales, ofrecemos a nuestros clientes la oportunidad de explorar las propiedades de manera inmersiva y realista desde la comodidad de sus hogares. Utilizando tecnología de realidad y recorrido virtuales 3D de Matterport, nuestros clientes pueden realizar visitas virtuales a las propiedades que les interesan, explorando cada rincón y detalle como si estuvieran allí en persona, lo que facilita la toma de decisiones informadas y reduce la necesidad de visitas físicas.
+                                    </p>
+                                </div>
+                                <div id="img-secc-3-app" class="col-md-6 mb-2" style="height: 357px;">
                                     <iframe src="https://my.matterport.com/show/?m=RsKKA9cRJnj" frameborder="0" width="100%" height="350"></iframe>
                                 </div>
                             </div>
@@ -169,15 +259,10 @@
 
     @endsection
     @section('script')
-        <script src="{{ URL::asset('/assets/libs/select2/select2.min.js') }}"></script>
-
         <script src="{{ URL::asset('/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
         <!-- owl.carousel js -->
         <script src="{{ URL::asset('/assets/libs/owl.carousel/owl.carousel.min.js') }}"></script>
         <!-- auth-2-carousel init -->
         <script src="{{ URL::asset('/assets/js/pages/auth-2-carousel.init.js') }}"></script>
         
-    <!-- form advanced init -->
-    <script src="{{ URL::asset('/assets/js/pages/form-advanced.init.js') }}"></script>
-
     @endsection
