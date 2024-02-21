@@ -26,7 +26,7 @@
                             <div class="row">
                                 <div class="col-xl-12 text-center">
                                     <div>
-                                        <img src="{{ URL::asset('/assets/images/fondoFreefee3.png') }}" alt="" width="100%">
+                                        <img src="{{ URL::asset('/assets/images/fondoFreefee4.png') }}" alt="" width="100%">
                                     </div>
                                 </div>
                                 <hr>
