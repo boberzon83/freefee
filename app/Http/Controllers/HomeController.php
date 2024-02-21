@@ -46,7 +46,8 @@ class HomeController extends Controller
             }
         }else{
             $towns = Town::where('status', 1)->orderBy('name','ASC')->get();
-            return view('welcome', compact('towns'));
+            $alert = '';
+            return view('welcome', compact('towns','alert'));
         }
 
     }
@@ -97,7 +98,8 @@ class HomeController extends Controller
             }
         }else{
             $towns = Town::where('status', 1)->orderBy('name','ASC')->get();
-            return view('welcome', compact('towns'));
+            $alert = '';
+            return view('welcome', compact('towns','alert'));
         }
 
     }
