@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>aye - Notificaciones</title>
+<title>FreeFee - Notificaciones</title>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -136,7 +136,7 @@
                                     <!-- COPY -->
                                     <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333;" class="padding-copy"><img src="https://www.freefee.es/assets/img/logo/logo-1.png" alt="freefee" height="30px"></td>
+                                            <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333;" class="padding-copy"><img src="http://www.freefee.es/assets/images/freefee2.png" alt="freefee" style="width: 200px;" height="30px"></td>
                                         </tr>
                                         <tr>
                                             <td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333;" class="padding-copy">Nuevo contacto desde la web</td>
@@ -144,10 +144,7 @@
                                         <tr>
                                           <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">
                                             <div>Nombre: <b>{{ $name }}</b>.</div>
-                                            <div>Correo: <b>{{ $email }}</b>.</div>
-                                            <div>Telef: <b>{{ $tel }}</b>.</div>
-                                            <div>Asunto: <b>{{ $subject }}</b>.</div>
-                                            <div><b>{{ $note }}</b>.</div>
+                                            <div>Tel.: <b>{{ $tel }}</b>.</div>
                                           </td>
                                         </tr>
                                     </table>

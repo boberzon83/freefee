@@ -1,8 +1,11 @@
 <?php
 
-use GuzzleHttp\Psr7\Request;
+use App\Models\Town;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Http\Request;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +17,32 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::post('/contacto', function (Request $request) {
+    //Enviar mail
+    $email_cliente = 'hola@fincax.es';
+    $data = array(
+        'name' => $request->name,
+        'tel' => $request->tel,
+    );
+
+    Mail::send('mails.demo', $data, function ($message) use ($email_cliente) {
+        $message->from('hola@fincax.es', 'FreeFee');
+        $message->sender('hola@fincax.es');
+        $message->to($email_cliente);
+        $message->subject('FreeFee - Contacto');
+    });
+
+    $alert = 'Contacto recibido correctamente';
+
+    $towns = Town::where('status', 1)->orderBy('name','ASC')->get();
+    return view('welcome', compact('towns','alert'));
+
+})->name('contacto');
+
+Route::get('/terminos', function () {
+    return view('privacy');
+})->name('terminos');
 
 Auth::routes();
 
