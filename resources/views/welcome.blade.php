@@ -204,6 +204,22 @@
                                                     <button class="btn btn-primary waves-effect waves-light"
                                                         type="submit">Contacta con Freefee</button>
                                                 </div>
+
+                                                <div class="mt-4 text-left">
+                                                    <p class="mb-2">
+                                                        <input class="form-check-input me-2" type="checkbox" value="" id="privacy" required>
+                                                        <label class="form-check-label" for="privacy">
+                                                            Aceptar <a href="/terminos" target="_blank" class="text-info">Política de protección de datos</a>
+                                                        </label>
+                                                    </p>
+                                                    <p class="mb-0">
+                                                        <input class="form-check-input me-2" type="checkbox" value="" id="cookies" required>
+                                                        <label class="form-check-label" for="cookies">
+                                                            Aceptar <a href="/cookies" target="_blank" class="text-info">Politica de cookies</a>
+                                                        </label>
+                                                        
+                                                    </p>
+                                                </div>
         
                                                 <div class="mt-4 text-center">
                                                     <h5 class="font-size-14 mb-3">Síguenos en redes</h5>
@@ -225,10 +241,7 @@
                                                     </ul>
                                                 </div>
         
-                                                <div class="mt-4 text-center">
-                                                    <p class="mb-0">Al contactar aceptas los <a href="/terminos" target="_blank"
-                                                        class="text-info">Términos y condiciones de uso</a></p>
-                                                </div>
+                                                
                                             </form>
 
                                         </div>
@@ -259,6 +272,8 @@
 
     @endsection
     @section('script')
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="1a5e3149-2df9-46e6-8805-0b8920be6264" data-blockingmode="auto" type="text/javascript"></script>
+
         <script src="{{ URL::asset('/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
         <!-- owl.carousel js -->
         <script src="{{ URL::asset('/assets/libs/owl.carousel/owl.carousel.min.js') }}"></script>

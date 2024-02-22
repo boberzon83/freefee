@@ -44,6 +44,11 @@ Route::get('/terminos', function () {
     return view('privacy');
 })->name('terminos');
 
+
+Route::get('/cookies', function () {
+    return view('cookies');
+})->name('cookies');
+
 Auth::routes();
 
 //RUTAS PARA LA GESTIÓN DE LOS USUARIOS
