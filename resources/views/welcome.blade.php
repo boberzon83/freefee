@@ -95,6 +95,7 @@
                                 <div id="content-secc-2" class="col-md-8 mt-4 p-4">
                                     <h1>Nos encargamos de todo</h1>
                                     <p class="text-landing">
+                                            <div class="mb-2"><i class="bx bx-home me-2"></i> VALORACIÓN DEL INMUEBLE</div>
                                             <div class="mb-2"><i class="bx bx-images me-2"></i> FOTOS PROFESIONALES</div>
                                             <div class="mb-2"><i class="bx bx-video me-2"></i> VIDEOS (OPCIÓN DE MATTERPORT 3D REAL SI REQUIERE LA FINCA)</div>
                                             <div class="mb-2"><i class="bx bx-buildings me-2"></i>  ELABORACIÓN DE PLANOS (SI REQUIERE)</div>
@@ -112,6 +113,7 @@
                                 <div id="content-secc-2-app" class="col-md-8 p-4 text-center">
                                     <h1>Nos encargamos <br />de todo</h1>
                                     <p class="text-landing text-center">
+                                            <div class="mb-3  text-center"><i class="bx bx-home bx-md"></i><br />VALORACIÓN DEL INMUEBLE</div>
                                             <div class="mb-3  text-center"><i class="bx bx-images bx-md"></i><br />FOTOS PROFESIONALES</div>
                                             <div class="mb-3  text-center"><i class="bx bx-video bx-md"></i><br />VIDEOS (OPCIÓN DE MATTERPORT 3D REAL SI REQUIERE LA FINCA)</div>
                                             <div class="mb-3  text-center"><i class="bx bx-buildings bx-md"></i><br />ELABORACIÓN DE PLANOS (SI REQUIERE)</div>
