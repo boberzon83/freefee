@@ -207,6 +207,12 @@
                                                         type="submit">Contacta con Freefee</button>
                                                 </div>
 
+                                                @if($alert)
+                                                <div class="alert alert-success alert-dismissible fade show mt-3 " role="alert">
+                                                    {{ $alert }}
+                                                  </div>
+                                                @endif
+
                                                 <div class="mt-4 text-left">
                                                     <p class="mb-2">
                                                         <input class="form-check-input me-2" type="checkbox" value="" id="privacy" required>
