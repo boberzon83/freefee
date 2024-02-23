@@ -33,7 +33,7 @@ Route::post('/contacto', function (Request $request) {
         $message->subject('FreeFee - Contacto');
     });
 
-    $alert = 'Contacto recibido correctamente';
+    $alert = 'Se ha recibido su contacto correctamente, gracias por confiar en Freefee';
 
     $towns = Town::where('status', 1)->orderBy('name','ASC')->get();
     return view('welcome', compact('towns','alert'));
